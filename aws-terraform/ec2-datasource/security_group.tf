@@ -1,6 +1,5 @@
 # Create Security Group to Allow SSH Traffic
 
-# Variable for dynamic ingress input in security group
 variable "ec2_ingress_ports_default" {
   description = "Allowed Ec2 ports"
   type        = map
