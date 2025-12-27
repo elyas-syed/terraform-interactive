@@ -41,7 +41,10 @@ terraform-interactive/
 └── tf-spot-blueprint-eks/   # EKS with spot instances
 ```
 
-## ☁️ AWS Terraform Modules
+## AWS Terraform Modules
+
+<details>
+<summary><b>☁️ EC2 Modules</b></summary>
 
 ### EC2 Instances
 
@@ -144,7 +147,10 @@ Configuration for using S3 as a Terraform remote backend.
 #### `tf-api/`
 Terraform API Gateway configuration examples.
 
-## 🐳 Docker Terraform Examples
+</details>
+
+<details>
+<summary><b>🐳 Docker Terraform Examples</b></summary>
 
 ### Basic Docker Operations
 
@@ -219,7 +225,10 @@ Dynamic block usage for security group rules.
 - Dynamic blocks
 - Flexible ingress rules
 
-## 🖥️ EC2 Tasks
+</details>
+
+<details>
+<summary><b>🖥️ EC2 Tasks</b></summary>
 
 Practical EC2 implementation tasks with real-world scenarios.
 
@@ -233,6 +242,8 @@ WordPress EC2 instance with Route53 DNS configuration.
 - Route53 DNS record
 - User data scripts
 - Monitoring enabled
+
+</details>
 
 ## 🚀 Advanced Configurations
 
